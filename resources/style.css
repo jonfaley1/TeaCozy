@@ -1,0 +1,144 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.logo {
+  margin-left: 10px;
+  height: 50px;
+
+
+}
+
+header {
+  display: flex;
+  height: 70px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  font-size: 30px;
+  background-color: black;
+  z-index: 4;
+}
+
+nav {
+  margin-left: auto;
+  justify-content: flex-end;
+  padding-right: 18px;
+}
+
+nav span {
+  padding: 15px;
+}
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+
+.banner-content {
+  display: flex;
+  background-image: url("../resources/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.text-content {
+  background-color: black;
+  width: 100%;
+}
+
+
+.teaofmonth {
+  display: block;
+  text-align: center;
+}
+
+.teaofmonth-text {
+  margin: 0 auto;
+}
+
+.tea {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: auto;
+  justify-content: center;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+
+#store-locations {
+  background-image: url("../resources/images/img-locations-background.jpg");
+  height: 500px;
+}
+
+.Location {
+  text-align: center;
+}
+
+.Maine {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: auto;
+  justify-content: space-evenly;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.Downtown{flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1.0;
+  background-color: black;
+}
+
+.Bayside {flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1.0;
+  background-color: black;
+}
+
+.Oakdale {flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1.0;
+  background-color: black;
+}
+
+
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  padding-left: 20px;
+}
